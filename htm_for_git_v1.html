@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bioinformatics Services | Projects and Consultings</title>
+  <style>
+    :root { --accent: #2c7acf; }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: #222; line-height: 1.6; background: #f5f7fa; }
+    header { background: var(--accent); color: #fff; padding: 2rem 1rem; text-align: center; }
+    header h1 { margin: 0; font-size: 2rem; }
+    section { max-width: 1000px; margin: 2rem auto; padding: 0 1rem; }
+    h2 { color: var(--accent); }
+    .service-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
+    .card { background: #fff; border-radius: 8px; box-shadow: 0 2px 6px rgba(0, 0, 0, .1); padding: 1.5rem; }
+    .card h3 { margin-top: 0; }
+    footer { background: #1d1f24; color: #ccc; text-align: center; padding: 1rem; font-size: .9rem; }
+    a.button { display: inline-block; margin-top: 1rem; background: var(--accent); color: #fff; padding: .5rem 1rem; border-radius: 4px; text-decoration: none; }
+    a.button:hover { background: #2267b0; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Comprehensive Bioinformatics Services</h1>
+    <p>High‑Standard NGS data analysis and deliverables </p>
+    <a class="button" href="mailto:riyadhbfx@gmail.com">Contact</a>
+  </header>
+
+  <section>
+    <h2>DNA‑Seq</h2>
+    <div class="service-grid">
+      <div class="card">
+        <h3>Whole Genome Sequencing (WGS)</h3>
+        <p>End‑to‑end analysis pipeline—from raw reads to annotated variants and reports.</p>
+      </div>
+      <div class="card">
+        <h3>Whole Exome Sequencing (WES)</h3>
+        <p>Targeted capture, variant calling, and clinical interpretation with ACMG guidelines.</p>
+      </div>
+      <div class="card">
+        <h3>Targeted Panel / Custom Capture</h3>
+        <p>Flexible workflows for oncology, rare disease, and pharmacogenomics panels.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>RNA‑Seq</h2>
+    <div class="service-grid">
+      <div class="card">
+        <h3>Bulk RNA‑Seq</h3>
+        <p>Differential expression, gene‑set enrichment, and publication‑ready visualisations.</p>
+      </div>
+      <div class="card">
+        <h3>Single‑cell RNA‑Seq (scRNA‑Seq)</h3>
+        <p>Cell clustering, trajectory inference, and interactive cell‑type exploration dashboards.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>ChIP‑Seq / CUT&RUN</h2>
+    <div class="service-grid">
+      <div class="card">
+        <h3>ChIP‑Seq</h3>
+        <p>Peak calling, motif discovery, and differential binding analysis.</p>
+      </div>
+      <div class="card">
+        <h3>CUT&RUN</h3>
+        <p>Low‑input chromatin profiling with ultra‑high signal‑to‑noise analysis pipelines.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>ATAC‑Seq</h2>
+    <div class="service-grid">
+      <div class="card">
+        <h3>Single‑cell ATAC‑Seq</h3>
+        <p>Cell‑type‑specific chromatin accessibility and integrated multi‑omic analysis.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="yr"></span> Your Company Name · All rights reserved.</p>
+  </footer>
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
